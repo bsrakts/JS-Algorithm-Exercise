@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500&display=swap');
+
+:root {
+    --bg-color: #f3f3f3;
+    --bg-color-light: #f1f1f1;
+    --light-cream: #FEE2C5;
+    --light-blue: #C4DDFF;
+    --mid-blue: #7FB5FF;
+    --dark-blue: #001D6E;
+    --text-dark: #252525;
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.title {
+    background: var(--dark-blue);
+    padding: 1rem 0rem !important;
+    color: var(--mid-blue);
+    font-size: large;
+    box-shadow: 0px 8px 10px 2px rgb(127, 181, 255, 0.4);
+}
+
+.category_detail {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 1rem;
+    justify-content: center;
+    color: var(--text-dark);
+    align-items: center;
+    background: var(--mid-blue);
+    padding: 7px 10px !important;
+    border-radius: 40px;
+}
+
+.que {
+    background: white;
+    margin: auto !important;
+    min-height: 16rem;
+    border-radius: 50px;
+    border: 1px solid rgb(129, 129, 129, 0.1);
+    box-shadow: 0px 2px 20px 2px rgba(0, 106, 255, 0.2);
+}
+
+.question_detail {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--bg-color-light);
+    background: var(--dark-blue);
+    border-bottom: 1px solid var(--dark-blue);
+    padding: 7px 10px !important;
+    border-radius: 20px;
+}
+
+.algorithm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 1rem !important;
+    color: var(--text-dark);
+    font-weight: 500;
+}
+
+.btn_situation {
+    position: relative;
+}
+
+.btn_img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn_situation {
+    text-decoration: none;
+    color: var(--bg-color-light);
+    background-color: #001D6E;
+    padding: 7px 7px !important;
+    border-radius: 25px;
+}
+
+.btn_situation a {}
